@@ -1,0 +1,139 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Count creation feature",
+    "line": 1,
+    "id": "count-creation-feature",
+    "tags": [],
+    "uri": "Création_de_compte.feature",
+    "elements": [
+      {
+        "id": "count-creation-feature;user-modify-an-account",
+        "keyword": "Scenario",
+        "line": 57,
+        "name": "User modify an account",
+        "tags": [
+          {
+            "name": "@focus",
+            "line": 56
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user opens the login page",
+            "result": {
+              "status": "passed",
+              "duration": 2714000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "A user click on Create an Account",
+            "result": {
+              "status": "passed",
+              "duration": 3068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 53,
+            "name": "A user enter personal information \"salma\" and \"el fadili\" and \"cougrausseikoummu-8\" and \"Polytech@123\" and \"Polytech@123\"",
+            "result": {
+              "status": "failed",
+              "duration": 4034000000,
+              "error_message": "AssertionError: Timed out retrying after 4000ms: Expected to find element: `#firstname`, but never found it.\n    at Object.FirstNameInput (cypress/support/pages/homeSaucePage.js:22:33)\n    at AbstractloginSteps.TypeFirstName (cypress/support/helperclass/AbstractloginSteps.js:79:31)\n    at Context.eval (cypress/support/step_definitions/login.js:58:15)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "A user click on Create an Account button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 55,
+            "name": "A underemail message \"Please enter a valid email address (Ex: johndoe@domain.com).\" appears",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 58,
+            "name": "A user click on Sign IT",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "A user enter the login and password \"salma.elfadili00@gmail.com\" and \"Polytech@123\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "A user click on Connexion",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "The firstname and the lastname \"SALMA EL FADILI\" appears in the right of the pannel header",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 62,
+            "name": "A user click on firstname and lastname",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 63,
+            "name": "A menu with \"My account\" \"My Wish List\" \"Sign Out\" appears",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 64,
+            "name": "A user click on \"My Account\"",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

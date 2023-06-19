@@ -1,0 +1,103 @@
+[
+  {
+    "description": "    This feature is required for a user to buy a product",
+    "keyword": "Feature",
+    "name": "Product Feature",
+    "line": 1,
+    "id": "product-feature",
+    "tags": [],
+    "uri": "produit.feature",
+    "elements": [
+      {
+        "id": "product-feature;succes-buy",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Succes buy",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user is logged in with \"standard_user\" and \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 1357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "A user click the button Add to cart of \"Sauce Labs Backpack\"",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "A user will succefully buy a product",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "product-feature;add-product-with-pprice-<-10",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Add product with pprice < 10",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user is logged in with \"standard_user\" and \"secret_sauce\"",
+            "result": {
+              "status": "passed",
+              "duration": 974000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "A user click on all products with price < '10'",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "A user check the shopping cart and enter the personal information \"Salma\" and \"EL fadili\" and '26000'",
+            "result": {
+              "status": "passed",
+              "duration": 1197000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "The total price of product is equal to the total price of the shopping cart",
+            "result": {
+              "status": "passed",
+              "duration": 20000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

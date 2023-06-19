@@ -1,0 +1,190 @@
+[
+  {
+    "description": "    This feature is required for a user to log in",
+    "keyword": "Feature",
+    "name": "Login Feature",
+    "line": 1,
+    "id": "login-feature",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "login-feature;succes-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Succes login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A user opens the login page",
+            "result": {
+              "status": "failed",
+              "duration": 146000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/https://www.saucedemo.com/\n\nWe failed looking for this file at the path:\n\n/Projet_BDD_archtesting/Cypress_cucumber/https:/www.saucedemo.com/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:64911/__cypress/runner/cypress_runner.js:138236:84)\n    at visitFailedByErr (http://localhost:64911/__cypress/runner/cypress_runner.js:137644:12)\n    at <unknown> (http://localhost:64911/__cypress/runner/cypress_runner.js:138219:13)\nFrom previous event:\n    at visit (http://localhost:64911/__cypress/runner/cypress_runner.js:138217:17)\n    at Context.visit (http://localhost:64911/__cypress/runner/cypress_runner.js:138268:14)\n    at wrapped (http://localhost:64911/__cypress/runner/cypress_runner.js:151174:43)\nFrom Your Spec Code:\n    at Context.eval (cypress/support/step_definitions/login.js:11:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "A user enter the username \"standard_user\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "A user enter the pasword \"secret_sauce\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "A user click on the loggin button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "A user will be logged in",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;failed-login",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Failed login",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A user opens the login page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/https://www.saucedemo.com/\n\nWe failed looking for this file at the path:\n\n/Projet_BDD_archtesting/Cypress_cucumber/https:/www.saucedemo.com/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:64911/__cypress/runner/cypress_runner.js:138236:84)\n    at visitFailedByErr (http://localhost:64911/__cypress/runner/cypress_runner.js:137644:12)\n    at <unknown> (http://localhost:64911/__cypress/runner/cypress_runner.js:138219:13)\nFrom previous event:\n    at visit (http://localhost:64911/__cypress/runner/cypress_runner.js:138217:17)\n    at Context.visit (http://localhost:64911/__cypress/runner/cypress_runner.js:138268:14)\n    at wrapped (http://localhost:64911/__cypress/runner/cypress_runner.js:151174:43)\nFrom Your Spec Code:\n    at Context.eval (cypress/support/step_definitions/login.js:11:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "A user enter the username \"locked_out_user\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "A user enter the pasword \"secret_sauce\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "A user click on the loggin button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "A user will \"Epic sadface: Sorry, this user has been locked out.\" message",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "login-feature;incorrect-user",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Incorrect user",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "A user opens the login page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\n/https://www.saucedemo.com/\n\nWe failed looking for this file at the path:\n\n/Projet_BDD_archtesting/Cypress_cucumber/https:/www.saucedemo.com/\n\nThe internal Cypress web server responded with:\n\n  > 404: Not Found\n    at <unknown> (http://localhost:64911/__cypress/runner/cypress_runner.js:138236:84)\n    at visitFailedByErr (http://localhost:64911/__cypress/runner/cypress_runner.js:137644:12)\n    at <unknown> (http://localhost:64911/__cypress/runner/cypress_runner.js:138219:13)\nFrom previous event:\n    at visit (http://localhost:64911/__cypress/runner/cypress_runner.js:138217:17)\n    at Context.visit (http://localhost:64911/__cypress/runner/cypress_runner.js:138268:14)\n    at wrapped (http://localhost:64911/__cypress/runner/cypress_runner.js:151174:43)\nFrom Your Spec Code:\n    at Context.eval (cypress/support/step_definitions/login.js:11:7)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "username",
+                      "password"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "testUser1",
+                      "secret_sauce2"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "When ",
+            "line": 24,
+            "name": "A user provides incorrect credentials",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "A user click on the loggin button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "A user will \"Epic sadface: Username and password do not match any user in this service\" message",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

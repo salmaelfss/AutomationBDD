@@ -1,0 +1,233 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Catalogue feature",
+    "line": 1,
+    "id": "catalogue-feature",
+    "tags": [],
+    "uri": "Catalogue.feature",
+    "elements": [
+      {
+        "id": "catalogue-feature;rechercher-un-article-à-partir-du-menu",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Rechercher un article à partir du menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user is in the home page",
+            "result": {
+              "status": "undefined",
+              "duration": 51000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "A user select the \"Women\" and \"Tops\" and \"Jackets\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify that 1 article minimum is present",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "A user show all the product 12,24 or 36 in one page based on the total of products",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "catalogue-feature;rechercher-un-article-à-partir-du-menu",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Rechercher un article à partir du menu",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user is in the home page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "A user select the \"Women\" and \"Bottoms\" and \"Pants\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "Verify that 1 article minimum is present",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "A user show all the product 12,24 or 36 in one page based on the total of products",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "catalogue-feature;rechercher-un-article-par-le-moteur-de-recherche-1",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Rechercher un article par le moteur de recherche 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user is in the home page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "A user tap \"pants\" in search barre",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "A scrolling menu appaer with two value possible \"pants for women\" \"pants for men\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "A user click on the option \"pants for men\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "The title \"Search results for: 'pants for men'\"  appear",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Rafraichir la page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "catalogue-feature;rechercher-un-article-par-le-moteur-de-recherche-1",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Rechercher un article par le moteur de recherche 1",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user is in the home page",
+            "result": {
+              "status": "undefined"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "A user tap \"jacket\" in search barre",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "A scrolling menu appaer with two value possible \"jacket for women\" \"Jacket for men\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "A user click on the option \"jacket for women\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "The title \"Search results for: 'jacket for women'\"  appear",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "Rafraichir la page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

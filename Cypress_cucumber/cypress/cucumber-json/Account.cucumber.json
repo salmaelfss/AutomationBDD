@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Client feature",
+    "line": 1,
+    "id": "client-feature",
+    "tags": [],
+    "uri": "Account.feature",
+    "elements": [
+      {
+        "id": "client-feature;ok-modification-newsletter-universelle",
+        "keyword": "Scenario",
+        "line": 147,
+        "name": "OK Modification Newsletter universelle",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "A user opens the login page",
+            "result": {
+              "status": "passed",
+              "duration": 5427000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 148,
+            "name": "A user is connceted",
+            "result": {
+              "status": "passed",
+              "duration": 7567000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 149,
+            "name": "A user click on Menu",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 150,
+            "name": "A user click on \"My Account\" of the customer welcome menu",
+            "result": {
+              "status": "passed",
+              "duration": 6596000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 151,
+            "name": "The page \"My Account\" is loadding",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 152,
+            "name": "A user click on \"Edit\" of the Newsletter",
+            "result": {
+              "status": "passed",
+              "duration": 5691000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 153,
+            "name": "The page \"Newsletter Subscription\" is loadding",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 154,
+            "name": "Check or Uncheck case",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 155,
+            "name": "A user save the changement",
+            "result": {
+              "status": "passed",
+              "duration": 3496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 156,
+            "name": "A the adéquat message apears",
+            "result": {
+              "status": "passed",
+              "duration": 688000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
